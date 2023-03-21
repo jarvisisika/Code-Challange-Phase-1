@@ -1,6 +1,6 @@
 //CHALLANGE 1
 //marks input
-let marks = ("Enter marks")
+let marks = prompt("Enter marks")
 //declaring grading creteria 
 if (marks >= 79) {
     console.log('A');
@@ -19,7 +19,7 @@ console.log(marks);
 
 //CHALLANGE 2
 // input speed of car
-let speed = ("Enter speed")
+let speed = prompt("Enter speed")
 // speed limit in km/h
 const speedLimit = 70; 
 // the number of km equivalent to a demerit point
@@ -37,16 +37,15 @@ if (speed <= speedLimit) {
   }
 }
 
-
 //CHALLANGE 3
 // DefinING the tax, NHIF, and NSSF rates (above 32333 basic salary)
 const TAX_RATE = 0.3
-const NHIF_RATE = 2.1
+const NHIF_RATE = 0.21
 const NSSF_RATE = 0.06
 
 //the user's inputs for basic salary and benefits
-const basicSalary = parseFloat(prompt("Enter basic salary: "));
-const benefits = parseFloat(prompt("Enter benefit: "));
+const basicSalary = prompt("Enter basic salary: ");
+const benefits = prompt("Enter benefit: ");
 
 //Calculating the gross salary
 const grossSalary = basicSalary + benefits;
@@ -65,4 +64,3 @@ console.log(`PAYE (Tax): ${taxDeduction}`);
 console.log(`NHIF Deduction: ${nhifDeduction}`);
 console.log(`NSSF Deduction: ${nssfDeduction}`);
 console.log(`Net Salary: ${netSalary}`);
-
