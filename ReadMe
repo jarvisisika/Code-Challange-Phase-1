@@ -1,0 +1,37 @@
+Challenge 1
+
+In this challenge, the user is prompted to enter their marks. The program then applies grading criteria and returns a grade to the user based on their marks.
+
+The grading criteria are as follows:
+
+    A: 79 and above
+    B: 60-78
+    C: 49-59
+    D: 40-48
+    E: below 40
+
+To use the program, the user should enter their marks when prompted. The program will then output the corresponding grade.
+
+
+
+Challenge 2
+
+This challenge involves a program that checks whether a car is exceeding the speed limit. The user is prompted to enter the speed of their car, and the program then compares this speed to the speed limit of 70 km/h.
+
+If the user's car is travelling at or below the speed limit, the program outputs "Ok". However, if the car is travelling above the speed limit, the program calculates the number of demerit points the user should receive based on their speed. The calculation is based on the assumption that a driver receives one demerit point for every 5 km/h over the speed limit. If the user receives more than 12 demerit points, the program outputs "License suspended". Otherwise, the program outputs the number of demerit points.
+
+To use the program, the user should enter the speed of their car when prompted. The program will then output either "Ok", the number of demerit points, or "License suspended".
+
+
+
+Challenge 3
+
+This challenge involves a program that calculates an individual's net salary based on their basic salary and benefits. The program takes the user's inputs for their basic salary and benefits and uses them to calculate their gross salary. The program then calculates tax, NHIF, and NSSF deductions based on the user's gross salary. Finally, the program calculates the user's net salary by subtracting these deductions from their gross salary.
+
+The program uses the following rates for tax, NHIF, and NSSF deductions:
+
+    TAX_RATE: 30%
+    NHIF_RATE: 2.1%
+    NSSF_RATE: 0.06%
+
+To use the program, the user should enter their basic salary and benefits when prompted. The program will then output their gross salary, tax deduction, NHIF deduction, NSSF deduction, and net salary.
