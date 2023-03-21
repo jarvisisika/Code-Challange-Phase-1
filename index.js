@@ -39,9 +39,9 @@ if (speed <= speedLimit) {
 
 //CHALLANGE 3
 // DefinING the tax, NHIF, and NSSF rates (above 32333 basic salary)
-const TAX_RATE = 0.3
-const NHIF_RATE = 0.21
-const NSSF_RATE = 0.06
+const TAX_RATE = 0.25
+const NHIF_RATE = 0.02
+const NSSF_RATE = 0.12
 
 //the user's inputs for basic salary and benefits
 const basicSalary = prompt("Enter basic salary: ");
